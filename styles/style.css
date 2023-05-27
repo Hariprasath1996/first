@@ -1,37 +1,86 @@
 *{
   margin: 0;
   padding:0;
-  /* box-sizing: border-box; */
+
 }
-
-
 
 html{
   font-size: 15px;
 }
 
 body{
+  width: 100vw;
+  height: 100vh;
+background-image:url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700044779.jpg);
+
+}
+.container{
   font-family: Georgia, 'Times New Roman', Times, serif;
-height:200vh ;
-width:auto;
+height:60vh;
+width:85vw;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background-image: url('https://images.unsplash.com/photo-1684635555286-26b91ffe6561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1540&q=80');
-background-position:inherit;
 }
 
 
-.card1 img{
-  width:.5rem;
-  height: .5rem;
-  border-radius:2rem;
-  justify-content: flex-start;
+.card1{
+  width: 45rem;
+ margin-left: 8rem;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7rem;
+  
+}
+.card1 a{
+text-decoration: none;
+color:white;
+width: 55rem;
+margin-left: 1.2rem;
+margin-top: 3rem;
+}
+
+.card2 img{
+
+  width:5rem;
+  height:5rem;
+  border-radius:5rem;
+  margin-left: 9rem;
+ margin-bottom: 3rem;
 }
 .card3{
- 
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  width: 50rem;
+  gap:1rem ;
 }
+.card3 h1{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+  line-height: 2rem;
+  margin-left: 9rem;
+  } 
+.card3 p{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  line-height: 1rem;
+  margin-left: 9rem;
+} 
+
+
+
 
 
 
